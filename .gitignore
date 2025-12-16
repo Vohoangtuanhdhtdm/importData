@@ -1,0 +1,45 @@
+# ========================
+# Node.js
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Firebase / Google Cloud
+# ========================
+**/serviceAccountKey.json
+**/*firebase*key*.json
+**/*service-account*.json
+NodeJS_key.json
+google-credentials.json
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# OS / Editor
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========================
+# Test coverage
+# ========================
+coverage/
